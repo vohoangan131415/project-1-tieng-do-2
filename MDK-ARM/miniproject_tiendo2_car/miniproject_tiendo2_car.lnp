@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"miniproject_tiendo2_car\startup_stm32f103xb.o"
+"miniproject_tiendo2_car\pwm.o"
+"miniproject_tiendo2_car\motor_handle.o"
+"miniproject_tiendo2_car\car.o"
+"miniproject_tiendo2_car\main.o"
+"miniproject_tiendo2_car\stm32f1xx_it.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_msp.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_gpio_ex.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_tim.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_tim_ex.o"
+"miniproject_tiendo2_car\stm32f1xx_hal.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_rcc.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_rcc_ex.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_gpio.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_dma.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_cortex.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_pwr.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_flash.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_flash_ex.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_exti.o"
+"miniproject_tiendo2_car\stm32f1xx_hal_uart.o"
+"miniproject_tiendo2_car\system_stm32f1xx.o"
+--strict --scatter "miniproject_tiendo2_car\miniproject_tiendo2_car.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "miniproject_tiendo2_car.map" -o miniproject_tiendo2_car\miniproject_tiendo2_car.axf
